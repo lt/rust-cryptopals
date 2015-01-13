@@ -1,0 +1,14 @@
+[package]
+
+name = "rust_cryptopals"
+version = "0.0.1"
+
+[[bin]]
+
+name = "01-convert-hex-to-base64"
+path = "01-convert-hex-to-base64.rs"
+
+[dependencies.rustc-serialize]
+
+version = "*"
+
